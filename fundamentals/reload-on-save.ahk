@@ -7,9 +7,9 @@ if WinActive(A_ScriptName)
 		Sleep,1000
 		SplashTextOff
 		Reload
-		;Sleep 1000
-		;MsgBox, 4,, The script was not reloaded, open it to edit?
-		;IfMsgBox, Yes, Edit
+		Sleep 1000
+		MsgBox, 4,, The script was not reloaded, open it to edit?
+		IfMsgBox, Yes, Edit
 	}
 else
 	SendInput, ^s
