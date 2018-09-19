@@ -19,7 +19,6 @@ $F1::
 						RunWait, https://www.nobossimnotbrowsingtheinternet.com/
 					}
 				WinMinimize, ahk_exe insertfavouriteinternetbrowser.exe
-				WinMinimize, ahk_exe sublime_text.exe
 				WinMinimize, ahk_exe minesweeper.exe
 				WinMinimize, ahk_exe fortnite.exe
 			}
