@@ -7,21 +7,21 @@ $F1::
 		SendInput, {F1}
 	Else
 		{
-		KeyWait, F1, D T0.3
-		if ErrorLevel
-			;single
-			SendInput, {F1}
-		Else
-			{
-				;double
-				If !WinExist("https://www.nobossimnotbrowsingtheinternet.com/")
-					{
-						RunWait, https://www.nobossimnotbrowsingtheinternet.com/
-					}
-				WinMinimize, ahk_exe insertfavouriteinternetbrowser.exe
-				WinMinimize, ahk_exe sublime_text.exe
-				WinMinimize, ahk_exe minesweeper.exe
-				WinMinimize, ahk_exe fortnite.exe
-			}
+			KeyWait, F1, D T0.3
+			if ErrorLevel
+				;single
+				SendInput, {F1}
+			Else
+				{
+					;double
+					If !WinExist("https://www.nobossimnotbrowsingtheinternet.com/")
+						{
+							RunWait, https://www.nobossimnotbrowsingtheinternet.com/
+						}
+					WinMinimize, ahk_exe insertfavouriteinternetbrowser.exe
+					WinMinimize, ahk_exe sublime_text.exe
+					WinMinimize, ahk_exe minesweeper.exe
+					WinMinimize, ahk_exe fortnite.exe
+				}
 		}
 	return

@@ -3,8 +3,8 @@ $F1::
     KeyWait, F1, D T0.2
     if ErrorLevel
         MsgBox, , Title, single
-    Else
+    else
         {
             MsgBox, , Title, double
         }
-    Return
+    return
